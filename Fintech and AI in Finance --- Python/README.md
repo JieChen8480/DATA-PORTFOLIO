@@ -2,5 +2,5 @@
 
 ### This is a industry project worked for European COST Network company
 
-#### We compeleted it in a team, and my role is a project lead
+This project compeleted it in a team, and my role is a project lead. 
 
