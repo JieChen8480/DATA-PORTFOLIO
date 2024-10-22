@@ -1,5 +1,4 @@
-# Optimized the most efficient route for amusement park attractions
-
+# Optimizing the most efficient route for playing attractions in the amusement park 
 ## Project Overview
 
 This project aims to analyze the average waiting times and walking distances between various attractions. It includes calculations for waiting times, walking times, and total times at different attractions using provided datasets and Python scripts.
