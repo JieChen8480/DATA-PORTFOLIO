@@ -1,4 +1,6 @@
-# New York City Taxi and Uber data
+# New York City Taxi and Uber data Project
+
+Oct 2022 -  Dec 2022
 
 Author1: Jie Chen (jc5890)
 Author2: Zhangyue Chen (zc2678)
