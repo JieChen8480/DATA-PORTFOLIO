@@ -47,37 +47,22 @@ This project focuses on optimizing logistics performance and supply chain operat
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ISE3230-project.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd ISE3230-project
-   ```
-
-3. Install required libraries (if any):
+1. Install required libraries (if any):
    Ensure you have Python 3 installed. Install the required libraries using:
    ```bash
    pip install -r requirements.txt
    ```
-   (If you don’t have a `requirements.txt` file, manually install the libraries used in the Python scripts like `pandas`, `openpyxl`, etc.)
-
-4. Run the scripts:
-   - To calculate total time:
+3. Create database and tables:
+   ```bash
+   mysql -u root -p < database/Database_setup.sql
+   ```
+4. Populate the tables with sample data:
      ```bash
-     python TotalTime.py
+     python src/populate_data.py
      ```
-
-   - To calculate waiting time:
+5. Perform data analysis and Visualization:
      ```bash
-     python WaitTime.py
-     ```
-
-   - To calculate walking time:
-     ```bash
-     python WalkTime.py
+     python src/data_analytics_Visualization.py
      ```
 
 ## Analysis and Insights
@@ -94,11 +79,6 @@ To run this project locally, follow these steps:
 
 	•	Optimized the cost per shipment by analyzing high-cost outliers and renegotiating contracts with underperforming vendors, resulting in a 15% cost reduction.
 
-
-
-## Results
-
-The results from the calculations are displayed in the terminal when you run the Python scripts. You can also adapt the scripts to output the results to a file or further process the data as needed.
 
 ## Contributing
 
