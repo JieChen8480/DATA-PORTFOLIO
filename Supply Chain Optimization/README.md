@@ -23,17 +23,17 @@ This project focuses on optimizing logistics performance and supply chain operat
   -	Root Cause Analysis: Perform in-depth analysis to uncover factors impacting delivery efficienc
 
 - **Data Files:**
+
+  	- `Database_setup.sql`:This code will create a sample database schema with tables related to shipments, vendors, and performance metrics.
+  	- `Performance_Analysis.sql`:These queries calculate KPIs such as on-time delivery rate and cost efficiency by vendor and region.
+  	- `Data_Analytics_Visualization.py`: This Python code uses pandas and matplotlib to analyze and visualize shipment data, highlighting key performance insights.
+  	- `Root_Cause_Analysis.py`:This Python code segment uses Python’s statistical libraries to perform root cause analysis on delays.
   
   This project uses synthetic data to simulate real-world logistics operations. The database includes the following tables:
 	-	`shipments`: Contains shipment details such as shipment date, delivery date, cost, and status.
 	-	`vendors`: Information about logistics vendors, including performance scores and regions served.
 	-	`performance_metrics`: Metrics such as on-time delivery, delivery time, and cost efficiency for each shipment.
 
-- **Python Scripts:**
-  - `TotalTime.py`: A script that calculates the total time spent at each attraction, combining both waiting and walking times.
-  - `WaitTime.py`: A script that handles the calculation and processing of average waiting times for each attraction.
-  - `WalkTime.py`: A script that calculates the walking time between different attractions based on the data in `distance_attraction.xlsx`.
-  - `test.py`: A test script to validate functionality and correctness of the other Python scripts.
 
 - **Technologies Used:**
 
@@ -95,11 +95,6 @@ To run this project locally, follow these steps:
 	•	Optimized the cost per shipment by analyzing high-cost outliers and renegotiating contracts with underperforming vendors, resulting in a 15% cost reduction.
 
 
-### Python Scripts
-
-- `Visualization.py`: This Python code uses pandas and matplotlib to analyze and visualize shipment data, highlighting key performance insights.
-- `Root_Cause_Analysis.py`: Focuses on waiting time calculations.
-- `WalkTime.py`: Focuses on walking time calculations.
 
 ## Results
 
