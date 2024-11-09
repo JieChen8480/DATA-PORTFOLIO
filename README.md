@@ -32,4 +32,4 @@ Thank you for reviewing my portfolio. I look forward to discussing how my skills
 
 ## Contact
 
-For any inquiries or collaboration opportunities, feel free to reach out via [LinkedIn]([https://www.linkedin.com/in/jie-chen-4502a4221/]).
+For any inquiries or collaboration opportunities, feel free to reach out via [https://www.linkedin.com/in/jie-chen-4502a4221/].
